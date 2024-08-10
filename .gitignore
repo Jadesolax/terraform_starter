@@ -1,0 +1,19 @@
+# Local .terraform directories
+**/.terraform/*
+
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Crash log files
+crash.log
+
+# Exclude .terraform.lock.hcl if you don't want to lock provider versions
+# .terraform.lock.hcl
+
+# Ignore variables and sensitive files (e.g., containing secrets)
+*.tfvars
+*.pem
+*.key
+*.pub
+.terraform/
