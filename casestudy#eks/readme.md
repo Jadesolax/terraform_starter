@@ -12,6 +12,7 @@ kubectl describe
 
 
 # To automate the manifest application process within your Terraform workflow, you can use the kubectl provider or execute a local-exec provisioner.
+
 resource "null_resource" "apply_manifest" {
   provisioner "local-exec" {
     command = "kubectl apply -f ./nginx-deployment.yaml"
